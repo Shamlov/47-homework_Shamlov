@@ -11,15 +11,15 @@
         <div class="adding-color-block">
             <p>Добавить новый цвет</p>
             <div class="form">
-                <label for="colorName">Цвет</label>
+                <label for="colorName" id="colorNameLabel">Цвет</label>
                 <input type="text" id="colorName">
                 <label for="type">Тип</label>
                 <select id="type">
-                    <option value="" data-typeColor="RGB">RGB</option>
-                    <option value="" data-typeColor="RGBA">RGBA</option>
-                    <option value="" data-typeColor="HEX">HEX</option>
+                    <option value="RGB" data-typeColor="RGB">RGB</option>
+                    <option value="RGBA" data-typeColor="RGBA">RGBA</option>
+                    <option value="HEX" data-typeColor="HEX">HEX</option>
                 </select>
-                <label for="code">Код цвета</label>
+                <label for="code" id="codeLabel">Код цвета</label>
                 <input type="text" id="code">
                 <button>Сохранить</button>
             </div>

@@ -81,6 +81,10 @@ p {
   text-align: center;
 }
 
+label {
+  font-size: 20px;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -113,4 +117,8 @@ button {
 }
 .palette-block .card-name {
   background-color: rgba(255, 255, 255, 0.458);
+}
+
+.invalid-field {
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */
