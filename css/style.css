@@ -1,0 +1,116 @@
+/*null*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside, section {
+  display: block;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+html, body {
+  color: #000;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*--------------------*/
+.wrapper {
+  width: 800px;
+  background-color: rgb(255, 241, 185);
+  padding: 20px;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+input, select {
+  display: block;
+  width: 300px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 300px;
+  padding: 5px;
+  font-size: 22px;
+}
+
+.palette-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+.palette-block .color-cards {
+  padding: 30px;
+  background-color: red;
+  flex-basis: 33.333%;
+  margin: 10px;
+}
+.palette-block .card-name {
+  background-color: rgba(255, 255, 255, 0.458);
+}/*# sourceMappingURL=style.css.map */

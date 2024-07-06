@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="adding-color-block">
+            <p>Добавить новый цвет</p>
+            <div class="form">
+                <label for="colorName">Цвет</label>
+                <input type="text" id="colorName">
+                <label for="type">Тип</label>
+                <select id="type">
+                    <option value="" data-typeColor="RGB">RGB</option>
+                    <option value="" data-typeColor="RGBA">RGBA</option>
+                    <option value="" data-typeColor="HEX">HEX</option>
+                </select>
+                <label for="code">Код цвета</label>
+                <input type="text" id="code">
+                <button>Сохранить</button>
+            </div>
+        </div>
+        <p>палитра цветов</p>
+        <div class="palette-block">
+            <div class="color-cards">
+                <div class="color-card">
+                    <div class="card-name">
+                        <p>имя</p>
+                        <p>RGB</p>
+                        <p>124,35,23</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
