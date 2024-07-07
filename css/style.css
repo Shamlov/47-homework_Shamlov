@@ -111,7 +111,6 @@ button {
 }
 .palette-block .color-cards {
   padding: 30px;
-  background-color: red;
   flex-basis: 33.333%;
   margin: 10px;
 }
